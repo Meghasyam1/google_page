@@ -19,6 +19,9 @@ header ul li{
 #menu{
     height: 18px;
 }
+#menu:hover{
+    box-shadow: 8px 8px 1.5px lightgray inset,-8px -8px 1.5px lightgray inset;
+}
 #profile{
     height: 30px;
 }
