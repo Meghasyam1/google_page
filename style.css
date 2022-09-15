@@ -1,0 +1,121 @@
+*{
+    margin:0px;
+    box-sizing: border-box;
+}
+/* header section */
+header{
+    height: 60px;
+}
+header ul{
+    list-style: none;
+    display: flex;
+    justify-content: flex-end;
+    padding: 1rem;
+    align-items: center;
+}
+header ul li{
+    margin: 0px 8px 0px 8px;
+}
+#menu{
+    height: 18px;
+}
+#profile{
+    height: 30px;
+}
+/* Main section */
+main{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+#google_img{
+    height: 13.5rem;
+    width: 21rem;
+}
+.search_bar ul li{
+    margin: 0px 5px 0px 5px;
+}
+.search_bar ul{
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+    border: 1px solid lightgray;
+    border-radius: 20px;
+    padding: 0.7rem;
+    text-align: center;
+    align-items: center;
+}
+.search_bar ul:hover{
+    box-shadow: 1.5px 2px 2px 2px lightgray;
+}
+.search_bar input{
+    border: none;
+    outline: none;
+    width: 470px;
+    margin-top: 0px;
+}
+.search_text{
+    height: 1rem;
+    width: 1rem;
+}
+/* Buttons Section */
+.buttons {
+    margin-top: 0.5rem;
+}
+.d_button:hover{
+    box-shadow: -0.5px 0.5px 0.5px  lightgray,0.5px -0.5px 0.5px lightgray;
+}
+.d_button2:hover{
+    box-shadow: -0.5px 0.5px 0.5px lightgray,0.5px -0.5px 0.5px lightgray;
+}
+.d_button{
+    margin-top: 1.2rem;
+    padding: 0.6rem;
+    background-color: rgba(248,249,250,255);
+    border:0px solid lightgray;
+    border-radius: 4px;
+}
+.d_button2{
+    padding: 0.6rem;
+    margin-left: 0.6rem;
+    background-color: rgba(248,249,250,255);
+    border-radius: 2px;
+    border:0px solid lightgray;
+}
+/* Text decoration */
+.ptext{
+    margin-top: 1.6rem;
+}
+.ptext span{
+    color: blue;
+    margin-left: 0.5rem;
+}
+/* Footer section */
+footer{
+    display: flex;
+    flex-direction: column;
+    background-color: rgba(242,242,242,255);
+    margin-top: 13.2rem;
+    padding: 0.8rem;
+}
+footer .sp{
+    padding:0.8rem;
+    margin-left: 60px;
+}
+.foo_menu ul{
+    list-style: none;
+    display: flex;
+}
+.foo_menu ul li{
+    margin-left:1.5rem;
+}
+.foo_menu{
+    display: flex;
+    justify-content: space-between;
+    padding: 0.6rem;
+}
+.underline:hover{
+    text-decoration: underline;
+    cursor: grab;
+}
