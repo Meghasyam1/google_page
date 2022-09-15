@@ -12,16 +12,26 @@ header ul{
     justify-content: flex-end;
     padding: 1rem;
     align-items: center;
+    box-sizing: border-box;
 }
 header ul li{
-    margin: 0px 8px 0px 8px;
+    margin-left:20px;
 }
 #menu{
     height: 18px;
 }
-#menu:hover{
-    box-shadow: 8px 8px 1.5px lightgray inset,-8px -8px 1.5px lightgray inset;
+.menu_back:hover{
+    background-color: lighgray;
+    border:1px solid white;
+    height: 30px;
+    width: 30px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 10px 10px 1.5px lightgray inset,-10px -10px 1.5px lightgray inset;
 }
+
 #profile{
     height: 30px;
 }
